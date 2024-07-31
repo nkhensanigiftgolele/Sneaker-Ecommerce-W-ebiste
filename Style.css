@@ -1,0 +1,207 @@
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin:  0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+}
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Search{
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.SearchInput{
+     border: none;
+     background-color: transparent;
+}
+.SearchInput::placeholder{
+    color: lightgrey;
+
+}
+.limitedOffer{
+     font-size: 20px;
+     border-bottom: 2px solid red;
+     cursor: pointer;
+}
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color:lightgray;
+    font-weight: 400;
+}
+.slider{
+    overflow:hidden;  
+
+}
+    
+    
+    
+    
+
+
+.sliderWrapper{
+    display:flex;
+    width: 900vw;
+     transition: all 1s ease-in-out;
+     
+}
+.sliderItem{
+    width:100000vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+    
+}
+.sliderBg{
+    width: 650px;
+    height: 560px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+}
+
+.sliderImg{
+    z-index: 1;
+    position: absolute;
+    top: 150;
+    
+    
+}
+.sliderTitle{
+    position: absolute;
+    right:25%;
+    top:0;
+    font-size: 40px;
+    font-weight: 1200;
+    text-align: center;
+    color:brown;
+    z-index: 1;
+    
+}
+.sliderPrice{
+    position: absolute;
+    left:32%;
+    top:20;
+    font-size: 28px;
+    font-weight: 1000;
+    text-align: center;
+    border: 1px solid black;
+    color:brown;
+    z-index: 1;
+}
+.buyButton{
+    position: absolute;
+    right: 400px;
+    top:450px;
+    font-size: 23px;
+    font-weight: 1000;
+    text-align: center;
+    border: 1px solid black;
+    color:brown;
+    z-index: 1;
+    cursor: pointer;
+}
+.buyButton:hover{
+    background-color: black;
+    color: white;
+}
+
+.sliderItem:nth-child(1) .sliderBg{
+        background-color: white
+}
+
+.sliderItem:nth-child(2) .sliderBg{
+    background-color: white
+}
+.sliderItem:nth-child(3) .sliderBg{
+    background-color: white
+}
+.sliderItem:nth-child(4) .sliderBg{
+    background-color: white
+}
+.sliderItem:nth-child(5) .sliderBg{
+    background-color: white
+}
+.sliderItem:nth-child(6) .sliderBg{
+    background-color: white
+}
+.sliderItem:nth-child(7) .sliderBg{
+    background-color: white
+}
+.sliderItem:nth-child(8) .sliderBg{
+    background-color: white
+}
+.sliderItem:nth-child(9) .sliderBg{
+    background-color: white
+}
+
+
+
+.sliderItem:nth-child(1) .sliderPrice{
+        background-color: black;
+}
+.sliderItem:nth-child(2) .sliderPrice{
+    background-color: black;
+}
+.sliderItem:nth-child(3) .sliderPrice{
+    background-color: black;
+}
+.sliderItem:nth-child(4) .sliderPrice{
+    background-color: black;
+}
+.sliderItem:nth-child(5) .sliderPrice{
+    background-color: black;
+}
+.sliderItem:nth-child(6) .sliderPrice{
+    background-color: black;
+}
+.sliderItem:nth-child(7) .sliderPrice{
+    background-color: black;
+}
+.sliderItem:nth-child(8) .sliderPrice{
+    background-color: black;
+}
+.sliderItem:nth-child(9) .sliderPrice{
+    background-color: black;
+}
+.product{
+    height:70vh;
+    position: relative;
+    width: 2000px;
+    height: 500px ;
+    bottom: 20px;
+    
+    
+}
+.product2{
+    background-color:whitesmoke ;
+    position: relative;
+    width: 2000px;
+    height: 500px;
+    top:-15px;
+}
+
+
+
+
+
+
